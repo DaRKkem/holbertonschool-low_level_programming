@@ -1,2 +1,2 @@
 #!/bin/bash
-export $CFILE -E -o c
+export $CFILE -E -o cefefef
