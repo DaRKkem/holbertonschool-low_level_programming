@@ -813,12 +813,3 @@ extern int __overflow (FILE *, int);
 
 # 2 "main.c"
 export CFILE=main.c
-
-
-
-
-
-int main(void)
-{
-    return (0);
-}
