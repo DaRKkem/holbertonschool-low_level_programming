@@ -1,13 +1,12 @@
 #include <stdio.h>
 
 /**
-* main - Entry point
-*
-* Description: 'print a string using puts function'
-* Return: Always 0 (Sucess)
-*/
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 
-int main(void) {
-    printf("Hello");
-    return 0;
+int main(void)
+{
+    return (1);
 }
