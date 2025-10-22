@@ -4,7 +4,7 @@
 /* more headers goes there */
 
 /**
-* main - prints the sign of a random number
+* main - prints n and compare its digit
 *
 * Return: Always 0 (Success)
 */
