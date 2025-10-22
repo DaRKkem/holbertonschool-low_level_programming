@@ -18,7 +18,7 @@ int main(void)
 
 		if (c == '9')
 		{
-			c = 'a' -1;
+			c = 'a' - 1;
 		}
 		c++;
 	}
