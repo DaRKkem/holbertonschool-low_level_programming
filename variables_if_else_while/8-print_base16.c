@@ -14,11 +14,11 @@ int main(void)
 	while (c <= 'f')
 	{
 		putchar(c);
+		c++;
 		if (c == '9')
 		{
 			c = 'a';
 		}
-		c++;
 	}
 	putchar('\n');
 	return (0);
