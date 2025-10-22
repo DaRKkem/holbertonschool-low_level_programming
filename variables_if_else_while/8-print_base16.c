@@ -10,6 +10,16 @@
 */
 int main(void)
 {
-	
+	char c = '0';
+	while (c <= 'f')
+	{
+		putchar(c);
+		if (c == '9')
+		{
+			c = 'a';
+		}
+		c++;
+	}
+	putchar('\n');
 	return (0);
 }
