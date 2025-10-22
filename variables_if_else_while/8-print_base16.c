@@ -15,9 +15,10 @@ int main(void)
 	while (c <= 'f')
 	{
 		putchar(c);
+
 		if (c == '9')
 		{
-			c = 'a'-1;
+			c = 'a' -1;
 		}
 		c++;
 	}
