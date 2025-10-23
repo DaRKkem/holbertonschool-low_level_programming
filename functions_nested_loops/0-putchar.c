@@ -15,7 +15,7 @@ int main(void)
 	char t[] = "_putchar";
 	int i;
 
-	for (i=0; t[i] != '\0'; i++)
+	for (i = 0; t[i] != '\0'; i++)
 	{
 		_putchar(t[i]);
 	}
