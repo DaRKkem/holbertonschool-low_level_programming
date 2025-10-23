@@ -1,10 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
+/* more headers goesthere */
 
 /**
-* main - print the hole alphabet
+* main - print _putchar
 *
 * Return: Always 0 (Success)
 */
