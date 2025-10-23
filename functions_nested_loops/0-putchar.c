@@ -19,5 +19,6 @@ int main(void)
 	{
 		_putchar(t[i]);
 	}
+	_putchar('\n');
 	return (0);
 }
