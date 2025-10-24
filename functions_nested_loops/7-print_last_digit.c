@@ -9,20 +9,11 @@
  */
 int print_last_digit(int n)
 {
+	n = n % 10;
 	if (n < 0)
 	{
 		n -= 2*n;
 	}
-	n = n % 10;
 	_putchar(n + '0');
 	return (n);
-}
-
-int main(void)
-{
-    int r;
-
-    print_last_digit(INT_MIN);
-    _putchar('\n');
-    return (0);
 }
