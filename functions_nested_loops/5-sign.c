@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print_sign - checks if a number is greater or lower than 0 or if it's 0.
+ * print_sign - checks if a number is greater or lower than 0 or if it's 0
  * @n: The character to verifie
  *
  * Return: 1 if 'c' is in lowercase or uppercase, 0 otherwise
