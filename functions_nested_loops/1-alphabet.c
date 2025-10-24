@@ -2,7 +2,7 @@
 
 /**
  * print_alphabet - prints all the alphabet in lowercase
- * 
+ *
  *
  * Return: nothing
  */
