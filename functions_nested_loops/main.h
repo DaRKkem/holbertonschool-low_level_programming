@@ -10,3 +10,13 @@ int print_sign(int n);
 
 
 #endif /* MAIN_H */
+
+/*
+
+int main()
+{
+	
+	return (0);
+}
+
+*/

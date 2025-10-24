@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print_sign - checks if a character is in scope [a-z] or [A-Z]
+ * print_sign - checks if a number is greater or lower than 0 or if it's 0.
  * @n: The character to verifie
  *
  * Return: 1 if 'c' is in lowercase or uppercase, 0 otherwise
@@ -24,4 +24,5 @@ int print_sign(int n)
 		printf("-\n");
 		return (-1);
 	}
+	return (0);
 }
