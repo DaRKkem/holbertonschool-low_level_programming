@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _islower - checks if a character is in scope [a-z] or [A-Z]
+ * _isalpha - checks if a character is in scope [a-z] or [A-Z]
  * @c: The character to verifie
  *
  * Return: 1 if 'c' is in lowercase or uppercase, 0 otherwise
