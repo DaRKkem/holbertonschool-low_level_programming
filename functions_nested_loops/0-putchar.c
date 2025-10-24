@@ -3,8 +3,6 @@
 #include <stdio.h>
 #include "main.h"
 
-/* more headers goesthere */
-
 /**
 * main - print _putchar
 *
