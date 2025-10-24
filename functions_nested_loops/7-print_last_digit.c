@@ -17,3 +17,12 @@ int print_last_digit(int n)
 	_putchar(n + '0');
 	return (n);
 }
+
+int main(void)
+{
+    int r;
+
+    print_last_digit(INT_MIN);
+    _putchar('\n');
+    return (0);
+}
