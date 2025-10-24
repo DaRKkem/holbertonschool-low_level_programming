@@ -1,14 +1,23 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
 #include "main.h"
-/* more headers goes there */
 
 /**
-* main - print the hole alphabet
-*
-* Return: Always 0 (Success)
-*/
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
+void print_alphabet(void)
+{
+	char c = 'a';
+
+	for (c = 'a'; c <= 'z'; c++)
+	{
+		_putchar(c);
+	}
+	_putchar('\n');
+}
+
 int main(void)
 {
 	print_alphabet();
