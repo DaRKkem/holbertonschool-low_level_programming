@@ -3,8 +3,7 @@
 
 /**
  * jack_bauer - prints every minute of the day starting from 00:00 to 23:59
- * @i: Loops through 24
- * @j: Loops through 60
+ *
  *
  * Return: the value of the last digit of the number 'n'
  */
