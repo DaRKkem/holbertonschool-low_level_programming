@@ -1,11 +1,10 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
  * print_sign - checks if a number is greater or lower than 0 or if it's 0
  * @n: The character to verifie
  *
- * Return: 1 if 'c' is in lowercase or uppercase, 0 otherwise
+ * Return: '+' if positive, '0' if 0 and '-' if negative
  */
 int print_sign(int n)
 {

@@ -1,11 +1,10 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
  * _abs - computes the absolute value of an integer
  * @n: The character to verifie
  *
- * Return: 1 if 'c' is in lowercase or uppercase, 0 otherwise
+ * Return: '-n' if negative and 'n' if 0 or positive
  */
 int _abs(int n)
 {
