@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _isdigit - multiplies two integers
+ * mul - multiplies two integers
  * @a: the 1st caracter to multiplie
  * @b: the 2nd caracter to multiplie
  *
