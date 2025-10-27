@@ -4,7 +4,7 @@
 /**
  * _isdigit - multiplies two integers
  * @a: the 1st caracter to multiplie
- * @b/ the 2nd caracter to multiplie
+ * @b: the 2nd caracter to multiplie
  *
  * Return: Always 0.
  */
