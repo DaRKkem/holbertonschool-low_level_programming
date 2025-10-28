@@ -41,3 +41,9 @@ void FizzBuzz(void)
 	}
 	printf("\n");
 }
+
+int main(void)
+{
+	FizzBuzz();
+	return (0);
+}
