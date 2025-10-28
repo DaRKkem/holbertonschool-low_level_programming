@@ -2,11 +2,9 @@
 #include <stdio.h>
 
 /**
- * FizzBuzz -	prints the numbers from 1 to 100, but
- *				prints Fizz for multiples of three,
- *				prints Buzz for multiples of five,
- *				prints FizzBuzz for multiples of three and five
- * main -		main function, launches FizzBuzz function
+ * main - main function, launches FizzBuzz function.
+ * FizzBuzz - prints numbers from 1 to 100, but it's FizzBuzz
+ *
  *
  * Return: Always 0.
  */
@@ -18,19 +16,23 @@ void FizzBuzz(void)
 	{
 		if (i % 5 == 0 && i % 3 != 0)
 		{
-			printf("Buzz ");
+			printf("Buzz");
 		}
 		else if (i % 3 == 0 && i % 5 != 0)
 		{
-			printf("Fizz ");
+			printf("Fizz");
 		}
 		else if (i % 3 == 0 && i % 5 == 0)
 		{
-			printf("FizzBuzz ");
+			printf("FizzBuzz");
 		}
 		else
 		{
-			printf("%d ", i);
+			printf("%d", i);
+		}
+		if (i < 100)
+		{
+			printf(" ");
 		}
 		i++;
 	}
