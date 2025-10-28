@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * print_line - prints 10 times the numbers, from 0 to 14
- * @n: the character to choose the length
+ * print_line - draws a straight line in the terminal
+ * @n: the length
  *
  * Return: Always 0.
  */
