@@ -9,12 +9,12 @@
  */
 void print_triangle(int size)
 {
+	int tmp = size;
+
 	if (size <= 0)
 	{
 		_putchar('\n');
 	}
-
-	int tmp = size;
 
 	while (size > 0)
 	{
