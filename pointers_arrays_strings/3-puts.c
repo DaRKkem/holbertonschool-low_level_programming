@@ -9,5 +9,6 @@
  */
 void _puts(char *str)
 {
-	printf("%s\n", str);
+	char *s = str;
+	printf("%s\n", s);
 }
