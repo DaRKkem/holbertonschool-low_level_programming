@@ -5,7 +5,7 @@
  * _isdigit - checks for uppercase character
  * @c: the character to verifie
  *
- * Return: Always 0.
+ * Return: 1 or 0.
  */
 int _isdigit(int c)
 {

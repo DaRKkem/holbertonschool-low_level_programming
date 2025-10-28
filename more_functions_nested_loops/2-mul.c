@@ -6,7 +6,7 @@
  * @a: the 1st character to multiplie
  * @b: the 2nd character to multiplie
  *
- * Return: Always 0.
+ * Return: Always a times b.
  */
 int mul(int a, int b)
 {
