@@ -3,8 +3,8 @@
 
 /**
  * mul - multiplies two integers
- * @a: the 1st caracter to multiplie
- * @b: the 2nd caracter to multiplie
+ * @a: the 1st character to multiplie
+ * @b: the 2nd character to multiplie
  *
  * Return: Always 0.
  */
