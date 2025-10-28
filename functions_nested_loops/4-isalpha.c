@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * _isalpha - checks if a character is in scope [a-z] or [A-Z]
+ * _islower - checks if a character is in scope [a-z]
  * @c: The character to verifie
  *
- * Return: 1 if 'c' is in lowercase or uppercase, 0 otherwise
+ * Return: 1 if 'c' is in lowercase, 0 otherwise
  */
-int _isalpha(int c)
+int _islower(int c)
 {
-	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+	if (c >= 'a' && c <= 'z')
 	{
 		return (1);
 	}
