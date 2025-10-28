@@ -7,8 +7,6 @@
  *				prints Buzz for multiples of five,
  *				prints FizzBuzz for multiples of three and five
  *
- * main - Launches the FizzBuzz function
- *
  * Return: Always 0
  */
 void FizzBuzz(void)
@@ -42,6 +40,11 @@ void FizzBuzz(void)
 	printf("\n");
 }
 
+/**
+ * main - launches the FizzBuzz function
+ *
+ * Return: Always 0
+ */
 int main(void)
 {
 	FizzBuzz();
