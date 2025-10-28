@@ -19,6 +19,7 @@ void print_triangle(int size)
 	while (size > 0)
 	{
 		int n = size - 1;
+
 		while (n > 0)
 		{
 			_putchar(' ');
@@ -34,13 +35,4 @@ void print_triangle(int size)
 		_putchar('\n');
 		size--;
 	}
-}
-
-int main(void)
-{
-    print_triangle(2);
-    print_triangle(10);
-    print_triangle(1);
-    print_triangle(0);
-    return (0);
 }
