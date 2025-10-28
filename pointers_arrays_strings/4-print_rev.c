@@ -31,5 +31,10 @@ void print_rev(char *s)
 	 */
     str[i] = '\0'; /*Terminer la nouvelle chaîne (enlever le tampon de 1024 et préciser la nouvelle sortie de chaîne)*/
 
-    printf("%s\n", str);
+    while (str[i] != '\0')
+	{
+		write(1, &str[i], 1);
+		i++;
+	}
+	write(1, "\n", 1);
 }
