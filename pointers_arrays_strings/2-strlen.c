@@ -2,16 +2,19 @@
 #include <stdio.h>
 
 /**
- * swap_int - swaps the values of two integer
- * @a: the 1st character to switch
- * @b: the 2nd character to switch
+ * _strlen - returns the length of a string
+ * @s: the string's length to count
  *
- * Return: Always nothing.
+ * Return: the lenght of 's'
  */
-void swap_int(int *a, int *b)
+int _strlen(char *s)
 {
-	int a2 = *a;
-	int b2 = *b;
-	*a = b2;
-	*b = a2;
+	int i = 0;
+
+	while (*s != '\0')
+	{
+		i++;
+		s++;
+	}
+	return (i);
 }
