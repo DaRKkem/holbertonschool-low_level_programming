@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <unistd.h>
 
 /**
  * print_rev -  prints a string, in reverse, followed by a new line
@@ -30,6 +31,7 @@ void print_rev(char *s)
 	 * a eu une dernière incrémentation de 'i' dans la boucle avant que 'p' ne dépasse la condition pour la prochaine boucle
 	 */
     str[i] = '\0'; /*Terminer la nouvelle chaîne (enlever le tampon de 1024 et préciser la nouvelle sortie de chaîne)*/
+	i = 0;
 
     while (str[i] != '\0')
 	{
