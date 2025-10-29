@@ -10,7 +10,7 @@
  */
 int _atoi(char *s)
 {
-	long int i = 0;
+	int i = 0;
 	int x = 0, y = 0, n = 0, stop = 0;
 
 	if (s[0] == '\0')
@@ -42,7 +42,7 @@ int _atoi(char *s)
 			}
 			i++;
 		}
-		if (x % 2 == 1)
+		if (x % 2 == 1 && n > -2147483648)
 		{
 			return (-n);
 		}
