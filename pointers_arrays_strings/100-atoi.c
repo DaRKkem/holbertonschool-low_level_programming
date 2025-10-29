@@ -18,14 +18,6 @@ int _atoi(char *s)
 	}
 	else
 	{
-		while (s[i] != '\0')
-		{
-			if (s[i] == '-')
-			{
-				x++;
-			}
-			i++;
-		}
 		i = 0, stop = 0;
 		while (s[i] != '\0' && stop == 0)
 		{
@@ -36,6 +28,10 @@ int _atoi(char *s)
 				{
 					stop = 1;
 				}
+			}
+			if (s[i] == '-' && n == 0)
+			{
+				x++;
 			}
 			i++;
 		}
