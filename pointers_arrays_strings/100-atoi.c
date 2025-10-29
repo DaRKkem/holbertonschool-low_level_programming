@@ -10,8 +10,7 @@
  */
 int _atoi(char *s)
 {
-	int i = 0;
-	int x = 0, y = 0, n = 0, stop = 0;
+	int i, x = 0, y = 0, n = 0, stop = 0;
 
 	if (s[0] == '\0')
 	{
@@ -21,15 +20,7 @@ int _atoi(char *s)
 	{
 		while (s[i] != '\0' && stop == 0)
 		{
-			if (s[i] >= '0' && s[i] <= '9')
-			{
-				n = n * 10 + (s[i] - 48);
-				if (s[i + 1] < '0' || s[i + 1] > '9')
-				{
-					stop = 1;
-				}
-			}
-			if (n == 0)
+			while (!n)
 			{
 				if (s[i] == '-')
 				{
@@ -40,9 +31,17 @@ int _atoi(char *s)
 					y++;
 				}
 			}
+			if (s[i] >= '0' && s[i] <= '9')
+			{
+				n = n * 10 + (s[i] - 48);
+				if (s[i + 1] < '0' || s[i + 1] > '9')
+				{
+					stop = 1;
+				}
+			}
 			i++;
 		}
-		if (x % 2 == 1 && n > -2147483648)
+		if (x % 2 == 1)
 		{
 			return (-n);
 		}
