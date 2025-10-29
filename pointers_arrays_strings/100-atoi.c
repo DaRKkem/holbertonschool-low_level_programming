@@ -41,7 +41,7 @@ int _atoi(char *s)
 			}
 			i++;
 		}
-		if (x > y)
+		if (x % 2 == 1)
 		{
 			return (-n);
 		}
