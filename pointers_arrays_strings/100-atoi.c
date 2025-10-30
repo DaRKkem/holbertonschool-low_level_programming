@@ -18,7 +18,6 @@ int _atoi(char *s)
 	}
 	else
 	{
-		i = 0, stop = 0;
 		while (s[i] != '\0' && stop == 0)
 		{
 			if (s[i] >= '0' && s[i] <= '9')
