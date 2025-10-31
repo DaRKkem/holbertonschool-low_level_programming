@@ -3,7 +3,9 @@
 
 /**
  * _strncat - concatenates two strings.
- * @n: the caracter to verifie update
+ * @dest: the 1st string to merge
+ * @src: the 2nd string to merge
+ * @n: bytes from src
  *
  * Return: Always nothing.
  */

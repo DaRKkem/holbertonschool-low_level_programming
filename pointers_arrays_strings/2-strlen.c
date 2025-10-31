@@ -3,9 +3,7 @@
 
 /**
  * _strlen - returns the length of a string
- * @dest: the 1st string to merge
- * @src: the 2nd string to merge
- * @n: bytes from src
+ * @s: the string's length to count
  *
  * Return: the lenght of 's'
  */
