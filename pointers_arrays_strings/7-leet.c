@@ -3,33 +3,38 @@
 #include <unistd.h>
 
 /**
- * cap_string - capitalizes all words of a string
+ * leet - encodes a string into 1337
  * @str: the string
  *
- * Return: Always nothing.
+ * Return: The new string.
  */
-char *cap_string(char *str)
+char *leet(char *str)
 {
 	int i = 0;
-	char *p = str[i];
 
 	while (str[i] != '\0')
 	{
-		if (p)
+		if (str[i] == 'a' || str[i] == 'A')
 		{
-			return 'i';
+			str[i] = '4';
 		}
+		else if (str[i] == 'e' || str[i] == 'E')
+		{
+			str[i] = '3';
+		}
+		else if (str[i] == 'o' || str[i] == 'O')
+		{
+			str[i] = '0';
+		}
+		else if (str[i] == 't' || str[i] == 'T')
+		{
+			str[i] = '7';
+		}
+		else if (str[i] == 'l' || str[i] == 'L')
+		{
+			str[i] = '1';
+		}
+		i++;
 	}
 	return (str);
-}
-
-int main(void)
-{
-    char s[] = "Expect the best. Prepare for the worst. Capitalize on what comes.\n";
-    char *p;
-
-    p = leet(s);
-    printf("%s", p);
-    printf("%s", s);
-    return (0);
 }
