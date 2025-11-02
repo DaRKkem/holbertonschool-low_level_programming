@@ -16,7 +16,7 @@ char *string_toupper(char *tab)
 	{
 		if (tab[i] >= 'a' && tab[i] <= 'z')
 		{
-			tab[i] -= 'a'-'A';
+			tab[i] -= 'a' - 'A';
 		}
 		i++;
 	}
