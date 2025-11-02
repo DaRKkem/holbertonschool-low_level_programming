@@ -8,17 +8,17 @@
  *
  * Return: The new string.
  */
-char *string_toupper(char *tab)
+char *string_toupper(char *str)
 {
 	int i = 0;
 
-	while (tab[i] != '\0')
+	while (str[i] != '\0')
 	{
-		if (tab[i] >= 'a' && tab[i] <= 'z')
+		if (str[i] >= 'a' && str[i] <= 'z')
 		{
-			tab[i] -= 'a' - 'A';
+			str[i] -= 'a' - 'A';
 		}
 		i++;
 	}
-	return (tab);
+	return (str);
 }
