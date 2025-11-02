@@ -8,23 +8,17 @@
  *
  * Return: The new string.
  */
-char *string_toupper(char *)
+char *string_toupper(char *tab)
 {
 	int i = 0;
-	char *tab = *;
+
 	while (tab[i] != '\0')
 	{
-
+		if (tab[i] >= 'a' && tab[i] <= 'z')
+		{
+			tab[i] -= 'a'-'A';
+		}
+		i++;
 	}
-	return (*);
-}
-int main(void)
-{
-    char str[] = "Look up!\n";
-    char *ptr;
-
-    ptr = string_toupper(str);
-    printf("%s", ptr);
-    printf("%s", str);
-    return (0);
+	return (tab);
 }
