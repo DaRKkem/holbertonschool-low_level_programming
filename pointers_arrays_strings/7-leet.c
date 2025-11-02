@@ -20,7 +20,7 @@ char *leet(char *str)
 
 		while (letters[j] != '\0')
 		{
-			if (str[i] == letter[j])
+			if (str[i] == letters[j])
 			{
 				str[i] = numbers[j];
 			}
