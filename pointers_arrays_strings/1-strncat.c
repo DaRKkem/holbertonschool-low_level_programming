@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * _strncat - concatenates two strings.
+ * _strncat - concatenates two strings
  * @dest: the 1st string to merge
  * @src: the 2nd string to merge
  * @n: bytes from src
