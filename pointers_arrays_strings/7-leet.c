@@ -24,6 +24,7 @@ char *leet(char *str)
 			{
 				str[i] = numbers[j];
 			}
+			j++;
 		}
 		i++;
 	}
