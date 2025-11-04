@@ -7,7 +7,7 @@
  * @s: the string
  * @accept: the number of bytes
  *
- * Return: The number of bytes in the initial segment of s
+ * Return: The new string or NULL
  */
 char *_strpbrk(char *s, char *accept)
 {
