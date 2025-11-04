@@ -35,7 +35,7 @@ char *_strpbrk(char *s, char *accept)
 
 	if (n == 0)
 	{
-		return (s);
+		return (NULL);
 	}
 	return (s + n + 1);
 }
