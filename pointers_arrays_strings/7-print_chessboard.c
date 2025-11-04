@@ -6,7 +6,7 @@
  * print_chessboard - prints the chessboard
  * @a: the pointer to array
  *
- * Return: The pointer of the first iteration of 'needle' in 'haystack'
+ * Return: Always nothing.
  */
 void print_chessboard(char (*a)[8])
 {
