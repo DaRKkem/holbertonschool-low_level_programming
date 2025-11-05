@@ -4,17 +4,22 @@
 
 /**
  * helper - helps _sqrt_recursion to find square root of 'n'
- * @x: the number to find the square root
- * 
+ * @n: the number to find the square root
+ * @i: the index
+ *
  * Return: The square root of 'n' or -1
  */
 int helper(int n, int i)
 {
 	if (i * i == n)
-		return i;
+	{
+		return (i);
+	}
 	if (i * i > n)
-		return -1;
-	return helper(n, i + 1);
+	{
+		return (-1);
+	}
+	return (helper(n, i + 1));
 }
 
 /**
@@ -25,5 +30,5 @@ int helper(int n, int i)
  */
 int _sqrt_recursion(int n)
 {
-	return helper(n, 0);
+	return (helper(n, 0));
 }
