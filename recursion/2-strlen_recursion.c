@@ -3,10 +3,10 @@
 #include <unistd.h>
 
 /**
- * _strlen_recursion - returns the length of a string by using recursion
+ * _strlen_recursion - returns the length of a string
  * @s: the string to use in recursion
  *
- * Return: Always nothing.
+ * Return: The string lenght or 0
  */
 int _strlen_recursion(char *s)
 {
