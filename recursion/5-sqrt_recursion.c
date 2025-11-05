@@ -13,13 +13,13 @@ int helper(int n, int i)
 {
 	if (i * i == n)
 	{
-		return (i);
+		return (i);  // Si i est la racine carrée parfaite
 	}
 	if (i * i > n)
 	{
-		return (-1);
+		return (-1); // Si i n'est pas une racine carrée parfaite
 	}
-	return (helper(n, i + 1));
+	return (helper(n, i + 1)); // Teste le nombre suivant
 }
 
 /**
@@ -30,5 +30,6 @@ int helper(int n, int i)
  */
 int _sqrt_recursion(int n)
 {
-	return (helper(n, 0));
+	return (helper(n, 0)); // Appel helper qui calcule la racine du nombre, en partant de 0 jusqu'à 'n', si 'n' = 9 alors
+	                       // pour vérifier si chaque i * i == n, au début 0 * 0 = n ?, non ... 3 * 3 == n ? OUI 
 }
