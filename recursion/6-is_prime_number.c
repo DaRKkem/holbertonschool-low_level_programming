@@ -32,7 +32,7 @@ int helper(int n, int i)
  *
  * Return: 1 or 0
  */
- int is_prime_number(int n)
+int is_prime_number(int n)
 {
 	return (helper(n, 2));
 	return (0);
