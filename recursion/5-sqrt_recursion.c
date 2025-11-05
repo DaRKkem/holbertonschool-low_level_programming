@@ -8,7 +8,7 @@
  *
  * Return: The square root of 'n' or -1
  */
-static int helper(int n, int i)
+int helper(int n, int i)
 {
 	if (i * i == n)
 		return i;
