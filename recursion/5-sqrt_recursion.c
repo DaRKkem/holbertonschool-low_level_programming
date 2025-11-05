@@ -3,9 +3,9 @@
 #include <unistd.h>
 
 /**
- * _sqrt_recursion - returns the natural square root of a number
+ * helper - helps _sqrt_recursion to find square root of 'n'
  * @x: the number to find the square root
- *
+ * 
  * Return: The square root of 'n' or -1
  */
 int helper(int n, int i)
@@ -17,6 +17,12 @@ int helper(int n, int i)
 	return helper(n, i + 1);
 }
 
+/**
+ * _sqrt_recursion - returns the natural square root of a number
+ * @n: the number to find the square root
+ *
+ * Return: The square root of 'n' or -1
+ */
 int _sqrt_recursion(int n)
 {
 	return helper(n, 0);
