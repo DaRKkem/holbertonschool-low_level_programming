@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+/**
+ * main - prints the name of the program
+ * @argc: number of arguments (unused)
+ * @argv: array of arguments
+ *
+ * Return: 0 (success)
+ */
+int main(int argc, char *argv[])
+{
+	printf("%d\n", argc);
+	return (0);
+}
