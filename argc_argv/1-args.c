@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints the name of the program
+ * main - prints the number of arguments passed into it
  * @argc: number of arguments (unused)
  * @argv: array of arguments
  *
@@ -9,6 +9,7 @@
  */
 int main(int argc, char *argv[])
 {
-	printf("%d\n", argc);
+	(void)argv;
+	printf("%d\n", argc - 1);
 	return (0);
 }
