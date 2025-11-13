@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
-* create_array - creates an array of chars initializes it with a specific char.
+* create_array - creates an array of chars
 * @size: unsigned integer
 * @c: char to use
 *
