@@ -13,14 +13,17 @@
 char *_strdup(char *str)
 {
 	char *copy;
-	int i;
+	int i, len = 0;
 
-	copy = malloc(4 * sizeof(char));
-	for (i = 0; str[i] != '\0'; i++)
+	while (str[i] != '\0')
+		i++, len++;
+
+	copy = malloc(len * sizeof(char));
+	for (i = 0; i < len; i++)
 	{
 		copy[i] = str[i];
 	}
 
 	return (copy);
 }
-/*coucodu*/
+
