@@ -26,4 +26,4 @@ char *_strdup(char *str)
 
 	return (copy);
 }
-/*dfzef*/
+/*dff*/
