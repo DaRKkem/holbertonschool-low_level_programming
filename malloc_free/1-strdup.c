@@ -15,10 +15,13 @@ char *_strdup(char *str)
 	char *copy;
 	int i, len = 0;
 
+	if (str == 0)
+		return (NULL);
+
 	while (str[i] != '\0')
 		i++, len++;
 
-	copy = malloc(len * sizeof(char));
+	copy = malloc((len) * sizeof(char));
 	for (i = 0; i < len; i++)
 	{
 		copy[i] = str[i];
@@ -26,4 +29,19 @@ char *_strdup(char *str)
 	copy[i] = '\0';
 
 	return (copy);
+}
+
+int main(void)
+{
+    char *s;
+
+    s = _strdup("Holberton School!");
+    if (s == NULL)
+    {
+        printf("failed to allocate memory\n");
+        return (1);
+    }
+    printf("%s\n", s);
+    free(s);
+    return (0);
 }
