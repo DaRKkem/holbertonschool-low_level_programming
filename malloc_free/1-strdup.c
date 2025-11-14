@@ -22,10 +22,13 @@ char *_strdup(char *str)
 		i++, len++;
 
 	copy = malloc((len) * sizeof(char));
+
+	if (copy == NULL)
+		return (NULL);
+
 	for (i = 0; i < len; i++)
-	{
 		copy[i] = str[i];
-	}
+
 	copy[i] = '\0';
 
 	return (copy);
