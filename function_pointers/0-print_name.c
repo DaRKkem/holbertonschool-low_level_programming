@@ -11,8 +11,6 @@ void print_name(char *name, void (*f)(char *))
 {
 	if (name == NULL || f == NULL)
 		return;
-	if (f != print_name_uppercase && f != print_name_as_is)
-		return;
 	
 	f(name);
 }
