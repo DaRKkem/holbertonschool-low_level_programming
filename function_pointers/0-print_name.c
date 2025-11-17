@@ -46,15 +46,10 @@ void print_name_uppercase(char *name)
  */
 void print_name(char *name, void (*f)(char *))
 {
-	int i = 0;
-
-	if (name == NULL)
+	if (name == NULL || f == NULL)
 		return;
 	if (f != print_name_uppercase && f != print_name_as_is)
 		return;
 	
-	if (f == print_name_uppercase)
-		print_name_uppercase(name);
-	else
-		print_name_as_is(name);
+	f(name);
 }
