@@ -1,25 +1,16 @@
 #include <stdio.h>
 
 /**
- * int_index - searches for an integer
- * @array: array to use
- * @size: the size of the array
- * @cmp: pointer to the function to use
+ * get_op_func- performs simple operations (like a baby calculator)
+ * @s: operator passed as argument
+ * @a: the first int to use
+ * @b: the second int to use
  *
- * Return: -1 or the first index of the integer
+ * Return: Error or the result
  */
-int int_index(int *array, int size, int (*cmp)(int))
+int (*get_op_func(char *s))(int a, int b)
 {
-	int i;
-
-	if (array == NULL || cmp == NULL || size <= 0)
-		return (-1);
-
-	for (i = 0; i < size; i++)
-	{
-		if (cmp(array[i]))
-			return (i);
-	}
-
-	return (-1);
+	if (s == "+")
+		return (0);
 }
+
