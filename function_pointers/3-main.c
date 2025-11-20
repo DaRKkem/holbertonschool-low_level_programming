@@ -5,6 +5,8 @@
 
 /**
  * main - the main function
+ * @argc: number of argurments
+ * @argv: array of all arguments
  *
  * Return: Always 0.
  */
