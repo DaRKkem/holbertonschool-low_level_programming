@@ -28,14 +28,11 @@ int main(int argc, char *argv[])
 		exit (99);
 	}
 
-	if ((strcmp(argv[2], "/") == 0) || (strcmp(argv[2], "%") == 0) && num2 == 0)
+	if ((argv[2] == "/" || argv[2] == "%") && num2 == 0)
 	{
 		puts("Error");
 		exit(100);
 	}
-
-	if (argv[0] != "test")
-		return (0);
 
 	printf("%d\n", func(num1, num2));
 	return (0);
