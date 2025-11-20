@@ -10,7 +10,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int num1, num2, result, (*func)(int, int);
+	int num1, num2, (*func)(int, int);
 
 	if (argc != 4)
 	{
@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
 		exit (99);
 	}
 
-	if ((argv[2] == "/" || argv[2] == "%") && num2 == 0)
+	if ((argv[2] == '/' || argv[2] == '%') && num2 == 0)
 	{
 		puts("Error");
 		exit(100);
