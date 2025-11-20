@@ -16,8 +16,8 @@ int op_mod(int a, int b);
  */
 typedef struct op
 {
-	char *op;                     //op
-	int (*f)(int a, int b);       //f
+	char *op;
+	int (*f)(int a, int b);
 } op_t;
 
 #endif /* MAIN_H */
