@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 	if (argc != 4)
 	{
 		puts("Error");
-		exit (98);
+		exit(98);
 	}
 
 	num1 = atoi(argv[1]);
@@ -25,7 +25,7 @@ int main(int argc, char *argv[])
 	if (func == NULL)
 	{
 		puts("Error");
-		exit (99);
+		exit(99);
 	}
 
 	if ((strcmp(argv[2], "/") == 0 || strcmp(argv[2], "%") == 0) && num2 == 0)
