@@ -1,6 +1,9 @@
-#include "variadic_functions.h"
-#include <stdarg.h>
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdarg.h>	
+#include "main.h"
+
 /**
 * print_numbers - prints numbers, followed by a new line
 * @separator: to separate arguments by a coma
