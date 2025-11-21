@@ -12,50 +12,44 @@
  */
 void print_all(const char * const format, ...)
 {
-	va_list boite;
-	int i = 0;
-	int printed = 0;  /* becomes 1 after first successful print */
-	char *stock;
+    va_list args;
+    int i = 0, printed = 0;
+    char *s;
 
-	va_start(boite, format);
+    va_start(args, format);
 
-	while (format && format[i])
-	{
-		switch (format[i])
-		{
-		case 'c':
-			if (printed)
-				printf(", ");
-			printf("%c", va_arg(boite, int));
-			printed = 1;
-			break;
+    if (format)
+    {
+        while (format[i])
+        {
+            switch (format[i])
+            {
+                case 'c':
+                    if (printed) printf(", ");
+                    printf("%c", va_arg(args, int));
+                    printed = 1;
+                    break;
+                case 'i':
+                    if (printed) printf(", ");
+                    printf("%d", va_arg(args, int));
+                    printed = 1;
+                    break;
+                case 'f':
+                    if (printed) printf(", ");
+                    printf("%f", va_arg(args, double));
+                    printed = 1;
+                    break;
+                case 's':
+                    if (printed) printf(", ");
+                    s = va_arg(args, char *);
+                    printf("%s", s ? s : "(nil)");
+                    printed = 1;
+                    break;
+            }
+            i++;
+        }
+    }
 
-		case 'i':
-			if (printed)
-				printf(", ");
-			printf("%d", va_arg(boite, int));
-			printed = 1;
-			break;
-
-		case 'f':
-			if (printed)
-				printf(", ");
-			printf("%f", va_arg(boite, double));
-			printed = 1;
-			break;
-
-		case 's':
-			if (printed)
-				printf(", ");
-			stock = va_arg(boite, char *);
-			printf("%s", stock ? stock : "(nil)");
-			printed = 1;
-			break;
-		}
-
-		i++;
-	}
-
-	va_end(boite);
-	printf("\n");
+    va_end(args);
+    printf("\n");
 }
