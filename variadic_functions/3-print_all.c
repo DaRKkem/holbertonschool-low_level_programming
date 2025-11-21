@@ -18,27 +18,29 @@ void print_all(const char * const format, ...)
 
 	va_start(args, format);
 
-	if (format)
+ if (format) /* 1st IF */
 	{
 		while (format[i])
 		{
-			if (printed)
-				printf(", ");
 			switch (format[i])
 			{
 				case 'c':
+					printed && printf(", "); /* prints comma if needed */
 					printf("%c", va_arg(args, int));
 					printed = 1;
 					break;
 				case 'i':
+					printed && printf(", ");
 					printf("%d", va_arg(args, int));
 					printed = 1;
 					break;
 				case 'f':
+					printed && printf(", ");
 					printf("%f", va_arg(args, double));
 					printed = 1;
 					break;
 				case 's':
+					printed && printf(", ");
 					s = va_arg(args, char *);
 					printf("%s", s ? s : "(nil)");
 					printed = 1;
