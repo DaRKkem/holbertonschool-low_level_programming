@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdarg.h>	
-#include "main.h"
+#include "variadic_functions.h"
 
 /**
 * print_numbers - prints numbers, followed by a new line
