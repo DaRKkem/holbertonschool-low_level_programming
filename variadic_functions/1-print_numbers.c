@@ -5,12 +5,12 @@
 #include "variadic_functions.h"
 
 /**
-* print_numbers - prints numbers, followed by a new line
-* @separator: to separate arguments by a coma
-* @n: number of arguments
-*
-* Return: Always nothing.
-*/
+ * print_numbers - prints numbers, followed by a new line
+ * @separator: to separate arguments by a coma
+ * @n: number of arguments
+ *
+ * Return: Always nothing.
+ */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i = 0;
