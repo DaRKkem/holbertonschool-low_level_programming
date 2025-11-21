@@ -18,14 +18,14 @@ void print_all(const char * const format, ...)
 
 	va_start(args, format);
 
- if (format)
+	if (format) /* 1st IF */
 	{
 		while (format[i])
 		{
 			switch (format[i])
 			{
 				case 'c':
-					printed && printf(", ");
+					printed && printf(", "); /* prints comma if needed */
 					printf("%c", va_arg(args, int));
 					printed = 1;
 					break;
