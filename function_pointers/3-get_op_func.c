@@ -4,7 +4,7 @@
 #include "3-calc.h"
 
 /**
- * get_op_func- performs simple operations (like a baby calculator)
+ * get_op_func - performs simple operations (like a baby calculator)
  * @s: operator passed as argument
  *
  * Return: Error or the result
