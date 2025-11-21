@@ -8,7 +8,7 @@
  * print_all - printf everything
  * @format: list of types of arguments passed to the function (c, i, f, s)
  *
- * Return: nothing
+ * Return: Always nothing.
  */
 void print_all(const char * const format, ...)
 {
