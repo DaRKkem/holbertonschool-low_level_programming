@@ -2,7 +2,7 @@
 
 /**
  * print_list - prints all the elements of a list_t list
- * @h: 
+ * @h: first node of the list
  *
  * Return: number of nodes
  */
@@ -20,5 +20,5 @@ size_t print_list(const list_t *h)
 		count++;
 	}
 
-	return(count);
+	return (count);
 }
