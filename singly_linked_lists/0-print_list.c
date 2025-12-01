@@ -11,7 +11,7 @@ size_t print_list(const list_t *h)
 
 	while (h != NULL)
 	{
-		if (count == 0 && h->str == NULL)
+		if (h->str == NULL)
 		{
 			puts("[0] (nil)");
 			return(count);
