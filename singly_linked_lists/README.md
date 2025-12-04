@@ -53,8 +53,9 @@ git clone https://github.com/yourusername/singly-linked-lists.git
 cd singly-linked-lists
 gcc 0-print_list.c _putchar.c -o print_list
 ./print_list
-
-🎈 Usage <a name="usage"></a>
+```
+🎈 Usage <a name = "usage"></a>
+Example usage :
 list_t *head = NULL;
 add_node(&head, "Hello");
 add_node_end(&head, "World");
@@ -63,13 +64,9 @@ free_list(head);
 
 🔧 Built Using <a name = "built_using"></a>
 
-C
+✍️ Author : <a name = "DaRKkem"></a>
 
-GCC
-
-✍️ Authors <a name = "authors"></a>
-
-Your Name - Idea & Implementation
+DaRKkem - Idea & Implementation
 
 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
