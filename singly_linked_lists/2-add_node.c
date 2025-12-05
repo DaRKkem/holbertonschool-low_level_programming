@@ -2,7 +2,7 @@
 
 /**
  * add_node - adds a new node at the beginning of a list_t list
- * @head: pointer to the pointer to the first node of the list
+ * @head: pointer to the head of the linked list
  * @str: the string to duplicate and store in the new node
  *
  * Return: address of the new element or NULL

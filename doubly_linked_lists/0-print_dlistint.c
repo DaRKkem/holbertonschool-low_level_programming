@@ -1,37 +1,20 @@
 #include "lists.h"
 
 /**
- * print_list - prints all the elements of a list_t list
- * @h: first node of the list
+ * print_dlistint - prints all elements of a dlistint_t list
+ * @h: head of the doubly linked list
  *
  * Return: number of nodes
  */
 size_t print_dlistint(const dlistint_t *h)
 {
-	return;
-}
+	size_t temp = 0; /* compteur de noeuds */
 
-int main(void)
-{
-    dlistint_t *head;
-    dlistint_t *new;
-    dlistint_t hello = {8, NULL, NULL};
-	size_t n;
-
-    head = &hello;
-    new = malloc(sizeof(dlistint_t));
-    if (new == NULL)
-    {
-        dprintf(2, "Error: Can't malloc\n");
-        return (EXIT_FAILURE);
-    }
-    new->n = 9;
-    head->prev = new;
-    new->next = head;
-    new->prev = NULL;
-    head = new;
-    n = print_dlistint(head);
-    printf("-> %lu elements\n", n);
-    free(new);
-    return (EXIT_SUCCESS);
+	while (h != NULL) /* parcourt la liste */
+	{
+		printf("%d\n", h->n); /* affiche la valeur du noeud */
+		temp++; /* incremente le compteur */
+		h = h->next; /* passe au noeud suivant */
+	}
+	return (temp); /* retourne le nombre de noeuds */
 }

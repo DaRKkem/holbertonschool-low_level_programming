@@ -2,7 +2,7 @@
 
 /**
  * print_list - prints all the elements of a list_t list
- * @h: first node of the list
+ * @h: head of the linked list
  *
  * Return: number of nodes
  */

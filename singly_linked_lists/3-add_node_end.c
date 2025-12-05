@@ -2,7 +2,7 @@
 
 /**
  * add_node_end - adds a new node at the end of a list_t list
- * @head: pointer to the pointer to the first node of the list
+ * @head: pointer to the head of the linked list
  * @str: string to duplicate and store in the new node
  *
  * Return: address of the new element or NULL on failure
