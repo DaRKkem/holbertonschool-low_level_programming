@@ -1,75 +1,24 @@
-<p align="center">
-  <a href="" rel="noopener">
- <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
-</p>
+# Singly Linked Lists
 
-<h3 align="center">Singly Linked Lists in C</h3>
-
-<div align="center">
-
-[![Status](https://img.shields.io/badge/status-active-success.svg)]()
-[![GitHub Issues](https://img.shields.io/github/issues/yourusername/singly-linked-lists.svg)](https://github.com/yourusername/singly-linked-lists/issues)
-[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/yourusername/singly-linked-lists.svg)](https://github.com/yourusername/singly-linked-lists/pulls)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
-
-</div>
+Implementing singly linked list data structure — creation, traversal, insertion, and memory management.
 
 ---
 
-<p align="center">
-  A C project implementing singly linked lists, including basic operations like adding, printing, and deleting nodes.
-</p>
+## Tasks
 
-## 📝 Table of Contents
+- **0-print_list.c**: Print all elements of a list_t list
+- **1-list_len.c**: Return number of elements
+- **2-add_node.c**: Add node at beginning
+- **3-add_node_end.c**: Add node at end
+- **4-free_list.c**: Free entire list
+- **lists.h**: Header with struct list_t definition and function prototypes
 
-- [About](#about)
-- [Getting Started](#getting_started)
-- [Usage](#usage)
-- [Built Using](#built_using)
-- [Contributing](#contributing)
-- [Authors](#authors)
-- [Acknowledgements](#acknowledgement)
+## Key Concepts
 
-## 🧐 About <a name = "about"></a>
+struct definition with next pointer, typedef, linked list traversal, node insertion (head/end), dynamic memory management for strings and nodes
 
-This project focuses on learning and implementing **singly linked lists in C**. It includes creating nodes, traversing the list, printing node contents, and managing memory efficiently. The main goal is to strengthen understanding of **pointers, dynamic memory allocation, and data structures** in low-level programming.
+---
 
-## 🏁 Getting Started <a name = "getting_started"></a>
+## Author
 
-Follow these instructions to get a copy of the project up and running on your local machine for testing and learning purposes.
-
-### Prerequisites
-
-- GCC (or any C compiler)
-- Make (optional)
-- Basic knowledge of C and pointers
-
-```bash
-sudo apt update
-sudo apt install build-essential
-
-Installing
-git clone https://github.com/yourusername/singly-linked-lists.git
-cd singly-linked-lists
-gcc 0-print_list.c _putchar.c -o print_list
-./print_list
-```
-🎈 Usage <a name = "usage"></a>
-Example usage :
-list_t *head = NULL;
-add_node(&head, "Hello");
-add_node_end(&head, "World");
-print_list(head);
-free_list(head);
-
-🔧 Built Using <a name = "built_using"></a>
-
-✍️ Author : <a name = "DaRKkem"></a>
-
-DaRKkem - Idea & Implementation
-
-🎉 Acknowledgements <a name = "acknowledgement"></a>
-
-Inspired by Holberton School
-
-Reference: https://www.geeksforgeeks.org/linked-list-set-1-introduction/
+**Damien Rossi** - **[DaRKkem](https://github.com/DaRKkem)** — Holberton School, cohort C28, Auvergne-Rhone-Alpes
