@@ -1,4 +1,5 @@
 # Variables, if, else, while
+![C](https://img.shields.io/badge/C-99-blue) ![Betty](https://img.shields.io/badge/style-Betty-green) ![License](https://img.shields.io/badge/License-Holberton-yellow)
 
 Control flow fundamentals — conditional statements, loops, and basic variable usage in C.
 
@@ -17,12 +18,21 @@ Control flow fundamentals — conditional statements, loops, and basic variable 
 - **8-print_base16.c**: Print hexadecimal digits
 - **9-print_comb.c**: Print combinations of digits
 
+> **Example:** `int n; srand(time(0)); n = rand(); if (n > 0) printf("positive\n");`
+
 ## Key Concepts
 
 if/else if/else, while loops, for loops, putchar, rand()/srand(), ASCII manipulation
 
 ---
 
-## Author
+Repository
 
-**Damien Rossi** - **[DaRKkem](https://github.com/DaRKkem)** — Holberton School, cohort C28, Auvergne-Rhone-Alpes
+GitHub repository: holbertonschool-low_level_programming
+Directory: variables_if_else_while
+
+---
+
+Author
+
+Damien Rossi - DaRKkem — Holberton School, cohort C28, Auvergne-Rhône-Alpes

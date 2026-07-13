@@ -1,4 +1,5 @@
 # C Programming
+![C](https://img.shields.io/badge/C-99-blue) ![Betty](https://img.shields.io/badge/style-Betty-green) ![License](https://img.shields.io/badge/License-Holberton-yellow)
 
 This repository contains the C Programming curriculum at Holberton School. It progresses from basic syntax and compilation through memory management, data structures, recursion, file I/O, and advanced function pointer techniques. Each module builds upon the previous, forming a comprehensive foundation in low-level programming.
 
@@ -24,4 +25,12 @@ This repository contains the C Programming curriculum at Holberton School. It pr
 
 ---
 
-**Author:** Damien Rossi - **[DaRKkem](https://github.com/DaRKkem)** -- Holberton School, cohort C28, Auvergne-Rhone-Alpes
+Repository
+
+GitHub repository: holbertonschool-low_level_programming
+
+---
+
+Author
+
+Damien Rossi - DaRKkem — Holberton School, cohort C28, Auvergne-Rhône-Alpes

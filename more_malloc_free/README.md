@@ -1,4 +1,5 @@
 # More malloc and Free
+![C](https://img.shields.io/badge/C-99-blue) ![Betty](https://img.shields.io/badge/style-Betty-green) ![License](https://img.shields.io/badge/License-Holberton-yellow)
 
 Advanced dynamic memory — error handling, custom calloc, bounded string concat, and integer range creation.
 
@@ -11,12 +12,21 @@ Advanced dynamic memory — error handling, custom calloc, bounded string concat
 - **2-calloc.c**: Custom calloc (zero-initialized memory)
 - **3-array_range.c**: Create array of ints from min to max
 
+> **Example:** `void *malloc_checked(unsigned int b) { void *p = malloc(b); if (!p) exit(98); return (p); }`
+
 ## Key Concepts
 
 malloc with error handling via exit(), custom calloc (zero-initialized), bounded string concat, array range creation
 
 ---
 
-## Author
+Repository
 
-**Damien Rossi** - **[DaRKkem](https://github.com/DaRKkem)** — Holberton School, cohort C28, Auvergne-Rhone-Alpes
+GitHub repository: holbertonschool-low_level_programming
+Directory: more_malloc_free
+
+---
+
+Author
+
+Damien Rossi - DaRKkem — Holberton School, cohort C28, Auvergne-Rhône-Alpes

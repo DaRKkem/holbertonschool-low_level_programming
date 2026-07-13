@@ -1,4 +1,5 @@
 # More Functions and Nested Loops
+![C](https://img.shields.io/badge/C-99-blue) ![Betty](https://img.shields.io/badge/style-Betty-green) ![License](https://img.shields.io/badge/License-Holberton-yellow)
 
 Advanced character checks, geometry drawing, and classic algorithm problems.
 
@@ -18,12 +19,21 @@ Advanced character checks, geometry drawing, and classic algorithm problems.
 - **9-fizz_buzz.c**: FizzBuzz implementation
 - **10-print_triangle.c**: Draw triangle
 
+> **Example:** `int isupper(int c) { return (c >= 'A' && c <= 'Z'); }`
+
 ## Key Concepts
 
 isupper, isdigit, nested loops for geometric patterns, FizzBuzz algorithm, _putchar-based shape drawing
 
 ---
 
-## Author
+Repository
 
-**Damien Rossi** - **[DaRKkem](https://github.com/DaRKkem)** — Holberton School, cohort C28, Auvergne-Rhone-Alpes
+GitHub repository: holbertonschool-low_level_programming
+Directory: more_functions_nested_loops
+
+---
+
+Author
+
+Damien Rossi - DaRKkem — Holberton School, cohort C28, Auvergne-Rhône-Alpes

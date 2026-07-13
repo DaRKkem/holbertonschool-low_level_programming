@@ -1,4 +1,5 @@
 # Structures and typedef
+![C](https://img.shields.io/badge/C-99-blue) ![Betty](https://img.shields.io/badge/style-Betty-green) ![License](https://img.shields.io/badge/License-Holberton-yellow)
 
 Defining custom data structures, type aliasing, and handling struct memory management (deep copy).
 
@@ -12,12 +13,21 @@ Defining custom data structures, type aliasing, and handling struct memory manag
 - **4-new_dog.c**: Create new dog with malloc'd strings
 - **5-free_dog.c**: Free a dog struct
 
+> **Example:** `typedef struct dog { char *name; float age; char *owner; } dog_t;`
+
 ## Key Concepts
 
 struct definition, typedef, pointer-to-struct (->), dynamic allocation of structs, deep copying strings, freeing structs
 
 ---
 
-## Author
+Repository
 
-**Damien Rossi** - **[DaRKkem](https://github.com/DaRKkem)** — Holberton School, cohort C28, Auvergne-Rhone-Alpes
+GitHub repository: holbertonschool-low_level_programming
+Directory: structures_typedef
+
+---
+
+Author
+
+Damien Rossi - DaRKkem — Holberton School, cohort C28, Auvergne-Rhône-Alpes

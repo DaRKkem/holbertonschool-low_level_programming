@@ -1,4 +1,5 @@
 # Pointers, Arrays, and Strings
+![C](https://img.shields.io/badge/C-99-blue) ![Betty](https://img.shields.io/badge/style-Betty-green) ![License](https://img.shields.io/badge/License-Holberton-yellow)
 
 Comprehensive coverage of pointer arithmetic, string manipulation, memory operations, and 2D arrays.
 
@@ -48,12 +49,21 @@ Comprehensive coverage of pointer arithmetic, string manipulation, memory operat
 - **7-print_chessboard.c**: Print chessboard
 - **8-print_diagsums.c**: Sum diagonals of matrix
 
+> **Example:** `void reset_to_98(int *n) { *n = 98; }`
+
 ## Key Concepts
 
 Pointers (dereference, address-of), pointer arithmetic, arrays, string reimplementation (strlen/strcat/strcmp/strcpy), memory functions (memset/memcpy/strchr/strspn/strpbrk/strstr), 2D arrays, leet encoding
 
 ---
 
-## Author
+Repository
 
-**Damien Rossi** - **[DaRKkem](https://github.com/DaRKkem)** — Holberton School, cohort C28, Auvergne-Rhone-Alpes
+GitHub repository: holbertonschool-low_level_programming
+Directory: pointers_arrays_strings
+
+---
+
+Author
+
+Damien Rossi - DaRKkem — Holberton School, cohort C28, Auvergne-Rhône-Alpes

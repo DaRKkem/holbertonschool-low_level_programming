@@ -1,4 +1,5 @@
 # argc and argv
+![C](https://img.shields.io/badge/C-99-blue) ![Betty](https://img.shields.io/badge/style-Betty-green) ![License](https://img.shields.io/badge/License-Holberton-yellow)
 
 Command-line argument handling — accessing program arguments, printing, arithmetic, and input validation.
 
@@ -12,12 +13,21 @@ Command-line argument handling — accessing program arguments, printing, arithm
 - **3-mul.c**: Multiply two numbers from arguments
 - **4-add.c**: Add positive numbers with digit validation
 
+> **Example:** `int main(int argc, char *argv[]) { printf("%s\n", argv[0]); return (0); }`
+
 ## Key Concepts
 
 main(int argc, char *argv[]), argc/argv, atoi(), input validation with isdigit()
 
 ---
 
-## Author
+Repository
 
-**Damien Rossi** - **[DaRKkem](https://github.com/DaRKkem)** — Holberton School, cohort C28, Auvergne-Rhone-Alpes
+GitHub repository: holbertonschool-low_level_programming
+Directory: argc_argv
+
+---
+
+Author
+
+Damien Rossi - DaRKkem — Holberton School, cohort C28, Auvergne-Rhône-Alpes
